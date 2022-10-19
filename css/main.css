@@ -52,7 +52,7 @@ div.fixed {
 }
 
 .estefanaNave {
-  height: 13em;
+  height: 12em;
 }
 
 div.fixed2 {
@@ -66,12 +66,13 @@ div.fixed2 {
 }
 
 .babyName {
-  height: 6em;
+  height: 5em;
   margin-top: 4em;
+  z-index: 1000;
 }
 
 .babyEstefana {
-  height: 9em;
+  height: 8em;
 }
 
 #title {
