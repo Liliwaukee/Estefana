@@ -11,7 +11,7 @@ body {
   width: 100%; }
 
 #main {
-  background: url("../assets/images/fondo1.jpg");
+  background: url("../assets/images/fondo2.jpg") no-repeat fixed;
   background-size: cover;
   background-position: initial;
   font-family: "neutraTextBold", sans-serif;
@@ -43,7 +43,7 @@ body {
 }
 
 h2.white {
-  color: #fff;
+  color: #fff!important;
 }
 
 div.fixed {
@@ -68,7 +68,7 @@ div.fixed2 {
 
 .babyName {
   height: 5em;
-  margin-top: 5em;
+  margin-top: 8em;
   z-index: 1000;
 }
 
@@ -87,9 +87,11 @@ div.fixed2 {
 #text {
   color: #E7D7FF;}
 
-  #textAdress {
-    color: #E7D7FF;
-  font-size: 1.8em;}  
+#textAdress {
+  color: #E7D7FF;
+  font-size: 1.8em;
+  text-align: center;
+}  
 
   
 
@@ -104,9 +106,10 @@ div.fixed2 {
 }
 .social-network-icon {
   background-color: #883A53;
-  border-radius: 0.8em;
+  border-radius: 2em;
   display: inline;
-  height: 3em;}
+  height: 3em;
+}
 
   .row {
     display: flex;
