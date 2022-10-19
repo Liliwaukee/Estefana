@@ -37,7 +37,7 @@ body {
 
 
 .fontChocolate {
-  font-family: chocolate;
+  font-family: daily;
   font-weight: initial;
 }
 
@@ -67,7 +67,7 @@ div.fixed2 {
 
 .babyName {
   height: 5em;
-  margin-top: 4em;
+  margin-top: 5em;
   z-index: 1000;
 }
 
