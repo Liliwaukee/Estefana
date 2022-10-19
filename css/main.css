@@ -55,6 +55,15 @@ div.fixed2 {
   height: 13em;
 }
 
+.babyName {
+  height: 6em;
+  margin-top: 4em;
+}
+
+.babyEstefana {
+  height: 9em;
+}
+
 #title {
   color: #919AAD;
   font-family: daily;
