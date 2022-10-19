@@ -95,7 +95,7 @@ div.fixed2 {
 #text {
   color: #E7D7FF;
 font-family: daily;
-font-size: 2em;}
+font-size: 1.5em;}
 
 #textAdress {
   color: #E7D7FF;
@@ -147,6 +147,11 @@ font-size: 2em;}
   
   .right-column {
   }
+
+div#textAdress {
+      border-top: 2px dotted #E7D7FF;
+    padding-top: 0.3em;
+}
 
 @media all and (min-width: 880px) {
   #logo {
