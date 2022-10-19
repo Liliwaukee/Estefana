@@ -137,7 +137,7 @@ font-size: 1.5em;}
   .column {
     display: flex;
     flex-direction: column;
-    flex-basis: 100%;
+    flex-basis: 100%!important;
     flex: 1;
     text-align: center;
   }
