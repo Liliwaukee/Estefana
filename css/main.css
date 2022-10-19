@@ -116,9 +116,9 @@ font-size: 1.5em;}
 }
 .social-network-icon {
   background-color: #883A53;
-  border-radius: 2em;
+  border-radius: 3em;
   display: inline;
-  height: 3em;
+  height: 5em;
 }
 
   .row {
@@ -137,7 +137,7 @@ font-size: 1.5em;}
   .column {
     display: flex;
     flex-direction: column;
-    flex-basis: 50%;
+    flex-basis: 100%;
     flex: 1;
     text-align: center;
   }
