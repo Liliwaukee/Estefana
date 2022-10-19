@@ -19,7 +19,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column; }
+  flex-direction: column; 
+  padding: 0 1em;}
 
 #babyShower {
   font-family: chocolate;
@@ -41,7 +42,7 @@ body {
   font-weight: initial;
 }
 
-.white {
+h2.white {
   color: #fff;
 }
 
@@ -86,11 +87,17 @@ div.fixed2 {
 #text {
   color: #E7D7FF;}
 
+  #textAdress {
+    color: #E7D7FF;
+  font-size: 1.8em;}  
+
+  
+
 #icons {
   display: inline-block; }
 .baby {
   width: 35%;
-  margin-top: 4em; 
+  margin-top: 6em; 
 }
 .date {
   width: 50%;
