@@ -11,7 +11,7 @@ body {
   width: 100%; }
 
 #main {
-  background: url("../assets/images/fondo2.jpg");
+  background: url("../assets/images/fondo1.jpg");
   background-size: cover;
   background-position: initial;
   font-family: "neutraTextBold", sans-serif;
@@ -33,6 +33,16 @@ body {
   color: #E7D7FF;
   font-size: 6em;  
   font-weight: initial;
+}
+
+
+.fontChocolate {
+  font-family: chocolate;
+  font-weight: initial;
+}
+
+.white {
+  color: #fff;
 }
 
 div.fixed {
@@ -115,5 +125,12 @@ div.fixed2 {
 @media all and (min-width: 880px) {
   #logo {
     width: 55%; } }
+
+    .column {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 100%;
+      text-align: center;
+    }  
 
 /*# sourceMappingURL=main.css.map */
