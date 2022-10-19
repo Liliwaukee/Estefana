@@ -12,7 +12,7 @@ body {
 
 #main {
   background: url("../assets/images/fondo2.jpg") fixed;
-  background-position: right center;
+  background-position: center center;
   background-repeat: no-repeat;
   font-family: "neutraTextBold", sans-serif;
   height: 100%;
@@ -155,7 +155,7 @@ font-size: 2em;}
     .column {
       display: flex;
       flex-direction: column;
-      flex-basis: 100%;
+      flex-basis: 50%;
       text-align: center;
     }  
 
