@@ -11,7 +11,9 @@ body {
   width: 100%; }
 
 #main {
-  background: url("../assets/images/fondo2.jpg") no-repeat fixed;
+  background: url("../assets/images/fondo2.jpg") fixed;
+  background-position: right center;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: initial;
   font-family: "neutraTextBold", sans-serif;
@@ -84,12 +86,21 @@ div.fixed2 {
   padding-top: 0;
   text-align: center; }
 
+#title {
+  color: #919AAD;
+  font-family: daily;
+  font-size: 2em;
+  margin-top: 0;
+  padding-top: 0;
+  text-align: center; }
+
 #text {
-  color: #E7D7FF;}
+  color: #E7D7FF;
+font-family: daily;}
 
 #textAdress {
   color: #E7D7FF;
-  font-size: 1.8em;
+  font-size: 2.2em;
   text-align: center;
 }  
 
