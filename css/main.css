@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "chocolate";
+  src: url("../assets/fonts/Chocolate.ttf") format("truetype");
+  font-family: "daily";
+  src: url("../assets/fonts/Daily.otf") format("opentype");  }
+
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
+#main {
+  background: url("../assets/images/fondo2.jpg");
+  background-size: cover;
+  background-position: initial;
+  font-family: "neutraTextBold", sans-serif;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+#babyShower {
+  font-family: chocolate;
+  color: #9685B2;
+  font-size: 5em;
+  font-weight: initial;
+} 
+
+#estefanaName {
+  font-family: chocolate;
+  color: #E7D7FF;
+  font-size: 6em;  
+  font-weight: initial;
+}
+
+div.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.estefanaNave {
+  height: 13em;
+}
+
+div.fixed2 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.elyNave {
+  height: 13em;
+}
+
+#title {
+  color: #919AAD;
+  font-family: daily;
+  font-size: 2.3em;
+  margin-top: 0;
+  padding-top: 0;
+  text-align: center; }
+
+#text {
+  color: #E7D7FF;}
+
+#icons {
+  display: inline-block; }
+.baby {
+  width: 35%;
+  margin-top: 4em; 
+}
+.date {
+  width: 50%;
+}
+.social-network-icon {
+  background-color: #883A53;
+  border-radius: 0.8em;
+  display: inline;
+  height: 3em;}
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 2em;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    text-align: center;
+  }
+  
+  .left-column {
+  }
+  
+  .right-column {
+  }
+
+@media all and (min-width: 880px) {
+  #logo {
+    width: 55%; } }
+
+/*# sourceMappingURL=main.css.map */
