@@ -151,12 +151,3 @@ font-size: 2em;}
 @media all and (min-width: 880px) {
   #logo {
     width: 55%; } }
-
-    .column {
-      display: flex;
-      flex-direction: column;
-      flex-basis: 50%;
-      text-align: center;
-    }  
-
-/*# sourceMappingURL=main.css.map */
