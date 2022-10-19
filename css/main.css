@@ -14,8 +14,6 @@ body {
   background: url("../assets/images/fondo2.jpg") fixed;
   background-position: right center;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: initial;
   font-family: "neutraTextBold", sans-serif;
   height: 100%;
   display: flex;
@@ -81,12 +79,12 @@ div.fixed2 {
 #title {
   color: #919AAD;
   font-family: daily;
-  font-size: 2.3em;
+  font-size: 1.7em;
   margin-top: 0;
   padding-top: 0;
   text-align: center; }
 
-#title {
+#title2 {
   color: #919AAD;
   font-family: daily;
   font-size: 2em;
@@ -96,7 +94,8 @@ div.fixed2 {
 
 #text {
   color: #E7D7FF;
-font-family: daily;}
+font-family: daily;
+font-size: 2em;}
 
 #textAdress {
   color: #E7D7FF;
@@ -129,11 +128,16 @@ font-family: daily;}
     width: 100%;
     padding-bottom: 2em;
   }
+
+#ultimaFila {
+  margin-bottom: 16em;
+}
+
   
   .column {
     display: flex;
     flex-direction: column;
-    flex-basis: 100%;
+    flex-basis: 50%;
     flex: 1;
     text-align: center;
   }
