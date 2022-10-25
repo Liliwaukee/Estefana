@@ -15,7 +15,7 @@ body {
 
 #main {
   background: url("../assets/images/fondoWeb.png") fixed;
-  background-size: 100%;
+  background-size: contain;
   background-attachment: scroll;
   height: 100%;
   z-index: -1;
@@ -170,8 +170,10 @@ div#textAdress {
   #logo {
     width: 55%; } 
 #main {
-    background-position: center;}
+    background-position: center;
+   background-size: 100%;}
   .column {
     flex-basis: 50%!important;}
+   
 
 }
