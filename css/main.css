@@ -1,6 +1,6 @@
 @font-face {
   font-family: "chocolate";
-  src: url("../assets/fonts/Chocolate.ttf") format("truetype");
+  src: url("../assets/fonts/DoubleChocolate.otf") format("opentype");
   font-family: "daily";
   src: url("../assets/fonts/Daily.otf") format("opentype");  }
 
@@ -11,7 +11,7 @@ body {
   width: 100%; }
 
 #main {
-  background: url("../assets/images/fondo2.jpg") fixed;
+  background: url("../assets/images/fondoWeb.png") fixed;
   background-position: center center;
   background-repeat: no-repeat;
   font-family: "neutraTextBold", sans-serif;
@@ -77,20 +77,21 @@ div.fixed2 {
 }
 
 #title {
-  color: #919AAD;
-  font-family: daily;
-  font-size: 1.7em;
-  margin-top: 0;
-  padding-top: 0;
-  text-align: center; }
-
-#title2 {
-  color: #919AAD;
+  color: #fff;
   font-family: daily;
   font-size: 2em;
   margin-top: 0;
-  padding-top: 0;
-  text-align: center; }
+  text-align: center; 
+  padding: 0 2em;
+  font-weight: 100;}
+
+#title2 {
+    font-family: daily;
+    font-size: 2em;
+    margin-top: 0;
+    text-align: center;
+    padding: 0 1.2em;
+    font-weight: 100; }
 
 #text {
   color: #E7D7FF;
