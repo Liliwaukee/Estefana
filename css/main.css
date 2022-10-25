@@ -12,8 +12,7 @@ body {
 
 #main {
   background: url("../assets/images/fondoWeb.png") fixed;
-  background-position: center center;
-  background-repeat: no-repeat;
+  background-size: 100%;
   font-family: "neutraTextBold", sans-serif;
   height: 100%;
   display: flex;
@@ -79,7 +78,7 @@ div.fixed2 {
 #title {
   color: #fff;
   font-family: daily;
-  font-size: 2em;
+  font-size: 2.2em;
   margin-top: 0;
   text-align: center; 
   padding: 0 2em;
@@ -87,7 +86,7 @@ div.fixed2 {
 
 #title2 {
     font-family: daily;
-    font-size: 2em;
+    font-size: 2.2em;
     margin-top: 0;
     text-align: center;
     padding: 0 1.2em;
@@ -102,6 +101,7 @@ font-size: 1.5em;}
   color: #E7D7FF;
   font-size: 2.2em;
   text-align: center;
+      margin: 0;
 }  
 
   
