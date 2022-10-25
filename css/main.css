@@ -14,7 +14,7 @@ body {
 
 
 #main {
-  background: url("../assets/images/fondoWeb1.png") fixed;
+  background: url("../assets/images/fondoWeb2.png") fixed;
   background-size: contain;
   background-attachment: scroll;
   height: 100%;
@@ -142,7 +142,7 @@ font-size: 1.5em;}
   }
 
 #ultimaFila {
-  margin-bottom: 16em;
+  margin-bottom: 13em;
 }
 
   
