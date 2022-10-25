@@ -164,6 +164,7 @@ font-size: 1.5em;}
 div#textAdress {
       border-top: 2px dotted #E7D7FF;
     padding-top: 0.3em;
+      width: 100%;
 }
 
 @media all and (min-width: 880px) {
@@ -171,4 +172,7 @@ div#textAdress {
     width: 55%; } 
 #main {
     background-position: center;}
+  .column {
+    flex-basis: 50%!important;}
+
 }
