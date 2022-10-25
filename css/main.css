@@ -18,15 +18,12 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: scroll;
-   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column; 
+  font-family: daily;
   padding: 0 1em;}
 
 .otherTypo { 
