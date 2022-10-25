@@ -38,6 +38,10 @@ body:before {
   flex-direction: column; 
   padding: 0 1em;}
 
+.otherTypo { 
+font-family: chocolate!important;
+}   
+  
 #babyShower {
   font-family: chocolate;
   color: #9685B2;
