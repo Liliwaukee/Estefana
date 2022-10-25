@@ -16,7 +16,6 @@ body {
 #main {
   background: url("../assets/images/fondoWeb.png") fixed;
   background-size: 100%;
-  background-repeat: no-repeat;
   background-attachment: scroll;
   height: 100%;
   z-index: -1;
@@ -112,7 +111,7 @@ font-size: 1.5em;}
 #textAdress {
   color: #E7D7FF;
   font-size: 2.2em;
-  text-align: center;
+  text-align: center!important;
       margin: 0;
 }  
 
