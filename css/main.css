@@ -24,7 +24,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column; 
-  font-family: daily;
+  font-family: "neutraTextBold", sans-serif;
   padding: 0 1em;}
 
 .otherTypo { 
