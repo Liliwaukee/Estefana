@@ -10,7 +10,7 @@ body {
   padding: 0;
   width: 100%; }
 
-body:before {
+#main:before {
   content: "";
   display: block;
   position: fixed;
