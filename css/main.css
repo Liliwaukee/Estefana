@@ -2,7 +2,9 @@
   font-family: "choco";
   src: url("../assets/fonts/DoubleChocolate.otf") format("opentype");
   font-family: "daily";
-  src: url("../assets/fonts/Daily.otf") format("opentype");  }
+  src: url("../assets/fonts/Daily.otf") format("opentype"); 
+font-family: "daily";
+  src: url("../assets/fonts/DoubleChocolate.otf") format("opentype"); }
 
 body {
   background-color: #fff;
@@ -30,6 +32,7 @@ body {
   background: url("../assets/images/fondoWeb.png") fixed;
   background-size: 100%;
   background-repeat: no-repeat;
+  background-attachment: scroll;
   font-family: "neutraTextBold", sans-serif;
   height: 100%;
   display: flex;
