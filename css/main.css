@@ -168,4 +168,7 @@ div#textAdress {
 
 @media all and (min-width: 880px) {
   #logo {
-    width: 55%; } }
+    width: 55%; } 
+#main {
+    background-position: center;}
+}
