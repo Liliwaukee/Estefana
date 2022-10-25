@@ -1,8 +1,8 @@
 @font-face {
-  font-family: "choco";
-  src: url("../assets/fonts/DoubleChocolate.otf") format("opentype");
   font-family: "daily";
-  src: url("../assets/fonts/Daily.otf") format("opentype"); 
+  src: url("../assets/fonts/Daily.otf") format("opentype");  }
+
+@font-face {
 font-family: "choco";
   src: url("../assets/fonts/DoubleChocolate.otf") format("opentype"); }
 
