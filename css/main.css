@@ -4,7 +4,7 @@
 
 @font-face {
 font-family: "choco";
-  src: url("../assets/fonts/DoubleChocolate.otf") format("opentype"); }
+  src: url("../assets/fonts/Chocolate.ttf") format("truetype"); }
 
 body {
   background-color: #fff;
@@ -14,8 +14,8 @@ body {
 
 
 #main {
-  background: url("../assets/images/fondoWeb2.png") fixed;
-  background-size: contain;
+  background: url("../assets/images/estefanaFondo.png") fixed;
+  background-size: 100%;
   background-attachment: scroll;
   height: 100%;
   z-index: -1;
